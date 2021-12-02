@@ -52,7 +52,6 @@ coverage.xml
 .pytest_cache/
 
 # Translations
-*.mo
 *.pot
 
 # Django stuff:
@@ -60,6 +59,7 @@ coverage.xml
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+*.sqlite3
 
 # Flask stuff:
 instance/
@@ -109,6 +109,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+staticfiles/
+mediafiles/
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +129,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# EDITOR
+.idea
+
+# NODEJS
+node_modules/
+
+# LOCAL ONLY
+localonly/
+
+# Whoosh index
+whoosh/
+whoosh_index/
+.whoosh/
+.whoosh_index/
+
+export/
+.export/
